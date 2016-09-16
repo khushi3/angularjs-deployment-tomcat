@@ -514,3 +514,4 @@ module.exports = function (grunt) {
     'build'
   ]);
 };
+grunt.registerTask('package', [ 'bowercopy', 'compress:dist' ]);
